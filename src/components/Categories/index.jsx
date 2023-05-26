@@ -12,6 +12,7 @@ const Categories = ({categories = [], setCategories}) => {
           <br/>
           <CategoriesList
               categories={categories}
+              setCategories={setCategories}
           />
       </div>
     )
