@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CategoriesList = ({ categories = [] }) => {
     return (
         <div>
@@ -15,5 +13,4 @@ const CategoriesList = ({ categories = [] }) => {
         </div>
     )
 }
-
 export default CategoriesList
